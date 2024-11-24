@@ -4,7 +4,7 @@ topology:
   nodes:
     router1:
       kind: linux
-      image: quay.io/frrouting/frr:8.4.1
+      image: quay.io/frrouting/frr:9.1.0
       binds:
         - router1/daemons:/etc/frr/daemons
         - router1/frr.conf:/etc/frr/frr.conf
